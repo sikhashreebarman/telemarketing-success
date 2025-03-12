@@ -9,6 +9,11 @@ The dataset consists of **39,211** records with the following key features:
 - **Campaign Details:** Contact method, last contact date, duration, number of contacts, previous campaigns.
 - **Response Variable:** Whether the client subscribed to the service (target variable).
 
+<div align="center">
+   <img src="https://github.com/user-attachments/assets/d848509e-0728-490b-b2d5-96b6cbcdef46">
+   <p>Fig: Dataset sample</p>
+</div>
+
 ## 🛠️ Data Preprocessing
 Key preprocessing steps performed:
 - **Handling missing values**: Imputed missing values for categorical and numerical features.
@@ -24,6 +29,49 @@ EDA was performed to understand:
 - Correlation between features.
 - Trends in campaign success.
 - Impact of different features on customer response.
+
+## 📉 Visualizations
+- Heatmaps for feature correlations.
+- Distribution plots of numerical features.
+- Success rates for different customer segments.
+  
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/d7d40775-e815-4979-9203-7384677f713e" width="300">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/b6133302-29e4-4a3c-a58d-a91ba8c9aea2" width="300">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/6729d210-3383-40be-a592-f90227feea8c" width="300">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/37eca970-b2ed-49c0-984b-048609e14a24" width="300">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/8e00429d-540d-4eb5-b06f-ac4f95a7af3f" width="300">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/65416d7d-fca4-4a2e-9301-5e64b8bcf5e4" width="300">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/1f00c017-0c6f-42d3-b07b-952363dfcab0" width="300">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/aae362ac-677e-4fdb-8afc-6ffb5c9db175" width="300">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/c1ee9eed-4246-4f2b-b6f5-dac332f27461" width="300">
+    </td>
+  </tr>
+</table>
+
+
 
 ## 🤖 Models Used
 Trained multiple models and compared their performance:
@@ -48,26 +96,16 @@ pip install numpy pandas scikit-learn xgboost matplotlib seaborn
 ### Running the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/bank-telemarketing-prediction.git
+   git clone https://github.com/yourusername/bank-telemarketing-success.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd bank-telemarketing-prediction
+   cd bank-telemarketing-success
    ```
-3. Run the preprocessing and training script:
-   ```bash
-   python train.py
-   ```
-4. 📊 Evaluate the results using the evaluation notebook.
 
-## 📉 Visualizations
-- Heatmaps for feature correlations.
-- Distribution plots of numerical features.
-- Success rates for different customer segments.
+3. Check out the notebook.
 
 ## 🏆 Conclusion
-This project successfully predicted telemarketing campaign success using ML models, achieving a **93% F1 score**. Future work includes:
-- Hyperparameter tuning for further performance improvement.
-- Deploying the model as an API for real-time prediction.
+This project successfully predicted telemarketing campaign success using ML models, achieving a **93% F1 score**. 
 
 
