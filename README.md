@@ -6,7 +6,7 @@ This project aims to predict the success of a bank's telemarketing campaigns usi
 ## 📊 Dataset
 The dataset consists of **39,211** records with the following key features:
 - **Client Information:** Age, job, marital status, education, balance, default history, housing loan, personal loan.
-- **Campaign Details:** Contact method, last contact date, duration, number of contacts, previous campaigns.
+- **Campaign Details:** Contact method, last contact date, duration, previous campaigns.
 - **Response Variable:** Whether the client subscribed to the service (target variable).
 
 <div align="center">
